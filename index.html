@@ -7,20 +7,65 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
-
-    <title>Lega Solutions</title>
+    <!-- tailwind and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Legal Solutions</title>
     <style>
-        .pri_font{
+        .pri_font {
             font-family: 'Poppins', sans-serif;
         }
-        .special_font{
-            font-family: 'Poppins', sans-serif;
+
+        .special_font {
+            font-family: 'EB Garamond', serif;
+        }
+        .bg_color{
+            background-color: #B68C5A;
         }
     </style>
 </head>
+
 <body>
+    <header class="container">
+        <!-- daisy ui -->
+          <!-- banner section -->
+        <section class="my-10">
+            <div class="py-5 px-3 flex lg:h-[600px]" style="background-image: url('images/banner.png'); background-repeat: no-repeat; background-size: cover; object-fit: cover;">
+                <div class="flex items-center  lg:w-1/2 mx-auto text-center">
+                    <div class="text-white space-y-5">
+                        <h1 class="special_font text-7xl font-extrabold">
+                            We Provide Effective <br>Legal Solutions
+                        </h1>
+                        <p class="pri_font">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                        </p>
+                        <div class="">
+                            <input type="text" placeholder="Search your services" class="input input-bordered input-md w-full max-w-xs lg:mb-2" />
+                        <button class="btn bg_color text-white font-bold lg:ml-5 md:ml-5">Warning</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- legal area practice section -->
+
+    <main class="container">
+        <section class="text-center">
+            <h1 class="special_font text-5xl font-extrabold mb-3">
+                The Legal Practice Area
+            </h1>
+            <p class="pri_font w-10/12 mx-auto">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+        </section>
+    </main>
 
 
 
@@ -29,7 +74,9 @@
 
 
 
-    
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
+
 </html>
